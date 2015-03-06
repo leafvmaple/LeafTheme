@@ -116,8 +116,8 @@ function mytheme_admin() {
  
 ?>
     <div class="wrap">
-    <h2><?php echo $themename; ?> 设置</h2>
- 
+        <h2><?php echo $themename; ?> 设置</h2>
+    </div>
     <form method="post">
  
 <?php
@@ -143,6 +143,7 @@ function mytheme_admin() {
                     </h3>
                 </td>
             </tr>
+            </table>
 <?php
             break;
             case 'text':

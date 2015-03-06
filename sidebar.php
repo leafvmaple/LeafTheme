@@ -8,7 +8,7 @@ if ( is_home() && (!$hide_text) ) {
 		<li>
 			<h2 id="abouttitle"> </h2>
 			<ul><li>
-			<img src="<?php echo get_option('siteurl'); ?>/wp-content/themes/anime-visual-theme/images/about.jpg" width="250" height="89" alt="" border="0" />
+			<img src="<?php echo get_option('siteurl'); ?>/wp-content/themes/leaf_visual/images/about.jpg" width="250" height="89" alt="" border="0" />
 			<br />
 <?php
 			$ani_about_text = get_option('x12_about_text');
@@ -17,12 +17,11 @@ if ( is_home() && (!$hide_text) ) {
 			else:
 ?>
 				云如千年一瞬·镜花水月一夕<br />
-				欢迎来到零度枫影的听枫阁·观叶亭。<br /><br />
+				欢迎来到落叶听枫的听枫阁·观叶亭。<br /><br />
 				CopyRight(c) 2014-2015 All Rights Reserved.<br />
 				<div style="text-align:right;">
 					祝玩得开心 ^_^<br />
-					落叶听枫@零度枫影<br />
-					leafvmaple@163.com
+					落叶听枫<br />
 				</div>
 <?php
 			endif;
