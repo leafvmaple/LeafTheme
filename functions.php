@@ -1,11 +1,11 @@
 <?php /*Start of Theme Options*/
  
-$themename = "Anime Visual";
+$themename = "Leaf Visual";
 $shortname = "x12";
 $header_i = array("","1","2","3","4","5");
 $options = array (
  
-    array( "name" => "Anime Visual 选项",
+    array( "name" => "Leaf Visual 选项",
 	"type" => "title"),
  
     array( "type" => "open"),
