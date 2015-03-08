@@ -1,7 +1,16 @@
+/*
 #anicontainer{
 	position:relative;
 	width:100%;
 }
+*/
+
+#anicontainer {
+	width:515px;
+	position:relative;
+	float:left;
+}
+
 #aninav{
 	position:relative;
 	height:76px;
@@ -140,7 +149,7 @@ div#featured {
 .latestpost h2 {
 	margin: 0;
 	padding: 0;
-	font-size: 13px;
+	font-size: 16px;
 	font-weight: bold;
 	color: #fff;
 }
@@ -152,14 +161,14 @@ div#featured {
 div#latest p{
 	margin:0;
 	padding:0px 0px 0px 0px;
-	font-size:11px;
+	font-size:14px;
 	color: #E0F3D3;
 }
 img.latestpostimage {
 	margin: 2px 5px 0 0;
 	float:left;
-	width:25px;
-	height:25px;
+	width:30px;
+	height:30px;
 }
 
 div#populartags {
